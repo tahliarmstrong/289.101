@@ -54,7 +54,23 @@ div{
 }
 .redcontent2{
     background-color:red;
+    height:500px;
+    width:920px;
+    float:left;
 }
-.bluefooter{
-    background-color:blue;
+.header1{
+    background-color:yellow;
+    width:880px;
+    height:100px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content1{
+    background-color:yellow;
+    width:280px;
+    height:240px;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
 }
