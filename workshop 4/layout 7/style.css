@@ -43,7 +43,7 @@ div{
 .bluecontent{
     background-color:blue;
     width:920px;
-    height:700px;
+    height:702px;
     float:left;
 }
 .greencontent2{
@@ -70,6 +70,22 @@ div{
     background-color:yellow;
     width:280px;
     height:240px;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+}
+.header2{
+    background-color:yellow;
+    width:880px;
+    height:80px;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+}
+.content2{
+    background-color:yellow;
+    width:205px;
+    height:174px;
     float:left;
     margin-left:20px;
     margin-top:20px;
