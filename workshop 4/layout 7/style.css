@@ -90,3 +90,27 @@ div{
     margin-left:20px;
     margin-top:20px;
 }
+.content3{
+    background-color:yellow;
+    width:280px;
+    height:440px;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+}
+.content4{
+    background-color:yellow;
+    width:580px;
+    height:360px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content5{
+    background-color:yellow;
+    width:280px;
+    height:260px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
