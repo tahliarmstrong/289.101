@@ -4,7 +4,7 @@ body{
     margin:0;
     font-family: 'Lato', sans-serif;
 }
-div{
+iv{
     outline:1px solid black;
 }
 .header{
@@ -47,26 +47,39 @@ div{
     color:#f06c64;
 }
 .banner img{
-    max-width:940px;
+    max-width:950px;
     width:90%;
 }
 .services{
-    width:950px;
+    max-width:950px;
     height:500px;
     margin-left:auto;
     margin-right:auto;
 }
 .ourservices{
-    color:grey;
+    color:#666d89;
     margin-top:70px;
     margin-left:30px;
     font-size:1.4rem;
     font-weight:bold;
+    float:left;
 }
 .text1{
-    color:grey;
+    color:#666d89;
     font-size:1rem;
     margin-top:35px;
     margin-left:30px;
-    max-width:940px;
+    max-width:950px;
+    float:left;
+}
+.portfolio{
+    height:870px;
+    background-color:#2d303a;
+    margin-left:auto;
+    margin-right:auto;
+}
+.services img{
+    float:left;
+    margin-top:55px;
+    max-width:950px;
 }
