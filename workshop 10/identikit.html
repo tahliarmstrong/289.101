@@ -38,7 +38,7 @@
       #eye_left, #eye_right {
         position: absolute;
         width: 50px;
-          height: 50px;
+          
       }
 
       #mouth {
@@ -77,8 +77,6 @@
     var eye_left_y = 100;
     var eye_right_x = 250;
     var eye_right_y = 100;
-      var eye_left_size={width: "50px",height: "50px"};
-      var eye_right_size={width: "50px",height: "50px"};
       
 //      mouth coordinates
       var mouth_x = 100;
@@ -89,6 +87,8 @@
     document.getElementById('eye_left').style.top = eye_left_y + 'px';
     document.getElementById('eye_right').style.left = eye_right_x + 'px';
     document.getElementById('eye_right').style.top = eye_right_y + 'px';
+      
+            
       
       document.getElementById('mouth').style.left = mouth_x + 'px';
       document.getElementById('mouth').style.top = mouth_y + 'px';       
@@ -177,16 +177,15 @@
     document.getElementById('big_eyes_btn').addEventListener('click', function() {
       
         
-        eye_left_y += 10;
-      document.getElementById('eye_left').style.height = eye_left_y + 'px';
         
         
+    });
       
-        eye_right_y += 10;
-      document.getElementById('eye_right').style.height = eye_right_y + 'px';
+      // small eyes event listener
+    document.getElementById('small_eyes_btn').addEventListener('click', function() {
+      
         
-        eye_right_x += 10;
-      document.getElementById('eye_right').style.width = eye_right_x + 'px';
+        
     });
         
   </script>
