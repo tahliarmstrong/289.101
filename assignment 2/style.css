@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Quicksand');
+body{
+    background-color:#f4f4f4;
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+}
+div{
+    outline:1px solid grey;
+}
+.menubox{
+    background-color: white;
+    height:50px;
+    width:440px;
+}
+.header{
+    background-color:#464646;
+    color:#FFFFFF;
+    height:620px;
+    max-width:1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    background-color:white;
+    max-width:1080px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.logo{
+    margin-top:20px;
+    margin-left:340px;
+    float:left;
+    
+}
+.logo img{
+    float:left;
+    margin-left:auto;
+    margin-right: auto;
+    max-width:180px;
+}
+.link{
+    margin-top:20px;
+    font-size:1rem;
+    margin-left: 40px;
+    float:left;
+    color:#FFFFFF;
+    text-align: center;
+}
+.link a{
+    color:#45676F;
+    text-decoration: none;
+    margin-left:20px;
+    margin-right:20px;
+}
+.link a:hover{
+    color:#94C0C6;
+}
+.designheader a {
+    color: white;
+    text-decoration: none;
+}
+.designheader a:hover{
+    color: #555555;
+}
+.about{
+    height:400px;
+    max-width:1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;
+}
+.about img{
+    max-height: 402px;
+    max-width: 307px;
+    float:right;
+    margin-top: 60px;
+    margin-right: 70px;
+    outline: 15px solid #f5f3f4;
+}
+.aboutheader{
+    color: #f4f4f4;
+    font-family: 'Caveat', cursive;
+    font-size: 2.7rem;
+    float:left;
+    margin-left: 75px;
+    margin-top: 40px;
+    max-width:320px;
+}
+.abouttext{
+    color:#f4f4f4;
+    margin-left:75px;
+    margin-top:40px;
+    float:left;
+    max-width:870px;
+    font-size:1rem;
+}
+.image1{
+    max-height: 270px;
+    float: left;
+    margin-top:40px;
+    margin-left:85px;
+    outline:10px solid #e2b9b9
+}
+.footer{
+    background-color:#464646;
+    height:80px;
+    max-width:1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright{
+    color: #f4f4f4;
+    font-size: 0.75rem;
+    float:left;
+    margin-left:50;
+    margin-top:35px;
+}
+/*sm devices*/
+@media (min-width: 576px){
+    body{
+        
+    }
+    .aboutheader{
+        max-width: 870px;
+        font-size: 3rem;
+    }
+    .logo img{
+        max-width:270px;
+    }
+}
+/*md*/
+@media (min-width: 768px){
+    body{
+        
+    }
+    .aboutheader{
+        max-width: 870px;
+        font-size: 3.2rem;
+    }
+    .logo img{
+        max-width:270px;
+    }
+}
+/*lg*/
+@media (min-width: 992px){
+    body{
+        
+    }
+    .aboutheader{
+        max-width: 870px 
+    }
+}
+/*xl*/
+@media (min-width: 1200px){
+    body{
+        
+    }
+    .aboutheader{
+        max-width: 870px 
+    }
+}
