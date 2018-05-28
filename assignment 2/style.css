@@ -483,9 +483,10 @@ div{
         margin-left:40px;
         height:40px;
     }
-    .menu img{
+    .cutlery img{
         max-height:100px;
-        margin-left:100px
+        margin-left:100px;
+        float:left;
     }
     .table img{
         max-height:100px;
@@ -566,7 +567,7 @@ div{
         font-size:1.4rem;
         margin-left:80px;
     }
-    .logo img{
+    .cutlery img{
         margin-left:340px;
         max-width:270px;
     }
@@ -655,4 +656,10 @@ div{
     .link{
         font-size: 1rem;
     }
+}
+@media screen and (max-width: 600px) {
+  .menubox {
+    display: none;
+  }
+   
 }

@@ -33,19 +33,8 @@
                 <div class="hiddenmenu"><img src="list-512.png"></div>
                 
                 <script>
-        $(window).resize(function(){
-            if($(window).width() >= 600 ) {
-                $('link').show();
-                $('hiddenmenu').hide();
-               }
-            else{
-                $('link').hide();
-                $('hiddenmenu').show();
-            }
-        });
-        
         document.getElementById('hiddenmenu').addEventListener('click', function(){
-            $('link').slideToggle();
+            $('menubox').slideToggle();
         });
     </script>
                 
@@ -91,7 +80,7 @@
         
     <div class="about2">
         <div class="row">
-            <div class="menu img"><img src="img_198790.png">
+            <div class="cutlery img"><img src="img_198790.png">
             </div>
             <div class="menutext">
             Grab some breakfast, lunch or a beverage with us. Check out our 
