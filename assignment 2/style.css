@@ -12,7 +12,7 @@ div{
     height:40px;
     width:550px;
     float:left;
-    margin-top: 0px;
+    padding-top: 20px;
 }
 .hiddenmenu img{
     width:35px;
@@ -73,7 +73,7 @@ div{
     height:20px;
     width:100px;
     float:right;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-right: 15px;
 }
 .seemenu a {
@@ -139,13 +139,11 @@ div{
     margin-top: 50px;
     float:left;
 }
-.about img{
-    max-height: 402px;
-    max-width: 307px;
-    float:right;
-    margin-top: 60px;
-    margin-right: 70px;
-    outline: 15px solid #f5f3f4;
+.menu{
+    width: 320px;
+    float:left;
+    margin-top: 50px;
+    margin-left: 60px;
 }
 .aboutheader{
     color: #f4f4f4;
@@ -169,7 +167,6 @@ div{
     color: #497183;
     font-family: 'Caveat', cursive;
     font-size: 3rem;
-    float:left;
     margin-left: 130px;
     margin-top: 50px;
     max-width:320px;
@@ -199,22 +196,20 @@ div{
 }
 .contactpagetext{
     color:#497183;
-    margin-left:220px;
     margin-top:10px;
     float:left;
-    max-width:300px;
     font-size:1.2rem;
+    width:100%;
     text-align: center;
 }
 .locationheader{
     color: #497183;
     font-family: 'Caveat', cursive;
     font-size: 3rem;
-    float:left;
-    margin-left: 70px;
+    
+    
     margin-top: 50px;
-    max-width:800px;
-    text-align: center;
+    width:100%;
 }
 .aboutpageheader{
     color: #497183;
@@ -243,10 +238,6 @@ div{
     max-width:300px;
     font-size:1rem;
     text-align: center;
-}
-.menu{
-    width:400px;
-    float:left;
 }
 .menu img{
     max-height:150px;
@@ -400,13 +391,6 @@ div{
     .about2{
         height:400px
     }
-    .actualmenu img{
-    width:600px;
-    }
-    .menu img{
-        max-height:100px;
-        margin-left:100px;
-    }
     .table img{
         max-height:100px;
         margin-left:100px;
@@ -443,6 +427,12 @@ div{
     .contactline{
         width:600px;
         margin-top: 50px;
+    }
+    .menu{
+        width:550px;
+    }
+    .about{
+        height:750px
     }
 }
 /*md*/
@@ -491,7 +481,7 @@ div{
     .menubox{
         width:700px;
         margin-left:40px;
-        height:50px;
+        height:40px;
     }
     .menu img{
         max-height:100px;
@@ -534,6 +524,13 @@ div{
     .contactline{
         width:800px;
         margin-top: 50px;
+    }
+    .menu{
+        width:700px;
+        margin-left:70px;
+    }
+    .about{
+        height:850px
     }
 }
 /*lg*/
@@ -632,6 +629,12 @@ div{
         width:0px;
         height:500px;
         margin-top: 0px;
+    }
+    .menu{
+        width:850px;
+    }
+    .about{
+        height:1000px
     }
 }
 /*xl*/
