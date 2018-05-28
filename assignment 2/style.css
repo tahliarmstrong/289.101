@@ -9,19 +9,21 @@ div{
 }
 .menubox{
     background-color: white;
-    height:50px;
-    width:330px;
+    height:40px;
+    width:550px;
     float:left;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .hiddenmenu img{
     width:35px;
-    margin-top:50px
+    margin-top:30px;
+    float:left;
+    margin-left: 30px;
 }
 .header{
     background-image:url(IMG_0487.png);
     color:#FFFFFF;
-    height:200px;
+    height:150px;
     max-width:1020px;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +49,8 @@ div{
 .logo img{
     float:left;
     max-width:180px;
-    margin-left:100px;
+    margin-left:80px;
+    margin-top: 20px;
 }
 .link{
     margin-top: 40px;
@@ -67,7 +70,7 @@ div{
 }
 .booknowbox{
     outline:4px solid #8D8D8D;
-    height:30px;
+    height:20px;
     width:100px;
     float:right;
     margin-top: 10px;
@@ -108,6 +111,34 @@ div{
     margin-right: auto;
     background-color: #f4f4f4;
 }
+.aboutlocations{
+    height:1500px;
+    max-width:1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;
+}
+.aboutabout{
+    height:1000px;
+    max-width:1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;
+}
+.aboutcontact{
+    height:1500px;
+    max-width:1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;
+}
+.contactline{
+    outline: 3px solid #497183;
+    width:340px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float:left;
+}
 .about img{
     max-height: 402px;
     max-width: 307px;
@@ -134,6 +165,15 @@ div{
     margin-top: 50px;
     max-width:320px;
 }
+.contactheader{
+    color: #497183;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    float:left;
+    margin-left: 130px;
+    margin-top: 50px;
+    max-width:320px;
+}
 .abouttext{
     color:#f4f4f4;
     margin-left:75px;
@@ -142,6 +182,12 @@ div{
     max-width:300px;
     font-size:1rem;
 }
+.coffeecup{
+    width: 350px;
+    float:left;
+    margin-left:50px;
+    margin-top:30px;
+}
 .menupagetext{
     color:#497183;
     margin-left:75px;
@@ -149,18 +195,64 @@ div{
     float:left;
     max-width:300px;
     font-size:1rem;
+    text-align: center;
 }
-.actualmenu img{
+.contactpagetext{
+    color:#497183;
+    margin-left:120px;
+    margin-top:10px;
+    float:left;
+    max-width:300px;
+    font-size:1.2rem;
+    text-align: center;
+}
+.locationheader{
+    color: #497183;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    float:left;
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width:800px;
+    text-align: center;
+}
+.aboutpageheader{
+    color: #497183;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    float:left;
+    margin-left: 140px;
+    margin-top: 50px;
+    max-width:320px;
+    text-align: center;
+}
+.locationtext{
+    color:#497183;
+    margin-left:75px;
+    margin-top:40px;
+    float:left;
+    max-width:300px;
+    font-size:1rem;
+    text-align: center;
+}
+.aboutpagetext{
+    color:#497183;
+    margin-left:75px;
+    margin-top:40px;
+    float:left;
+    max-width:300px;
+    font-size:1rem;
+    text-align: center;
+}
+.menu{
     width:400px;
     float:left;
-    margin-right: 80px;
-    
 }
 .menu img{
     max-height:150px;
     float:left;
     margin-top:30px;
-    margin-left:140px
+    margin-left:120px
 }
 .table img{
     max-height:150px;
@@ -277,6 +369,11 @@ div{
         font-size: 3rem;
         margin-left: 260px;
     }
+    .locationheader{
+        max-width: 870px;
+        font-size: 3rem;
+        margin-left: 160px;
+    }
     .abouttext{
         max-width: 500px;
         font-size:1.1rem;
@@ -285,9 +382,14 @@ div{
         max-width: 500px;
         font-size:1.1rem;
     }
+    .locationtext{
+        max-width: 500px;
+        font-size:1.1rem;
+        margin-left:40px;
+    }
     .logo img{
         max-width:230px;
-        margin-left:0px;
+        margin-left:200px;
     }
     .copyright{
         margin-left:220px;
@@ -297,6 +399,50 @@ div{
     }
     .about2{
         height:400px
+    }
+    .actualmenu img{
+    width:600px;
+    }
+    .menu img{
+        max-height:100px;
+        margin-left:100px;
+    }
+    .table img{
+        max-height:100px;
+        margin-left:100px;
+    }
+    .contact img{
+        max-height:100px;
+        margin-left:100px;
+    }
+    .aboutlocations{
+        height:750px
+    }
+    .aboutpagetext{
+        font-size: 1.2rem;
+        max-width:450px;
+    }
+    .aboutpageheader{
+        font-size: 3rem;
+        margin-left:220px;
+    }
+    .coffeecup{
+        margin-left: 120px;
+        width:350px;
+    }
+    .header{
+        height:250px;
+    }
+    .link{
+        font-size: 0.8rem;
+    }
+    .contactheader{
+        font-size:3.5rem;
+        margin-left:200px;
+    }
+    .contactline{
+        width:600px;
+        margin-top: 50px;
     }
 }
 /*md*/
@@ -314,9 +460,14 @@ div{
         font-size: 3.5rem;
         margin-left:350px;
     }
+    .locationheader{
+        max-width: 870px;
+        font-size: 3.5rem;
+        margin-left: 220px;
+    }
     .logo img{
         max-width:250px;
-        margin-left:0px;
+        margin-left:260px;
     }
     .abouttext{
         max-width: 700px;
@@ -326,11 +477,63 @@ div{
         max-width: 700px;
         font-size:1.2rem;
     }
+    .locationtext{
+        max-width: 500px;
+        font-size:1.2rem;
+        margin-left:100px;
+    }
     .copyright{
         margin-left:300px;
     }
     .about2{
         height:400px
+    }
+    .menubox{
+        width:700px;
+        margin-left:40px;
+        height:50px;
+    }
+    .menu img{
+        max-height:100px;
+        margin-left:150px
+    }
+    .table img{
+        max-height:100px;
+        margin-left:150px;
+    }
+    .contact img{
+        max-height:100px;
+        margin-left:150px;
+    }
+    .aboutpagetext{
+        font-size: 1.4rem;
+        max-width:500px;
+        margin-left:130px
+    }
+    .aboutpageheader{
+        font-size: 3.2rem;
+        margin-left:320px;
+    }
+    .coffeecup{
+        margin-left: 200px;
+        width:350px;
+    }
+    .aboutabout{
+        height:1100px;
+    }
+    .link{
+        font-size: 1rem;
+    }
+    .contactheader{
+        font-size:3.6rem;
+        margin-left:280px;
+    }
+    .booknowbox{
+        height:30px;
+    }
+    .contactline{
+        width:800px;
+        margin-top: 50px;
     }
 }
 /*lg*/
@@ -348,6 +551,11 @@ div{
         margin-left: 400px;
         font-size: 4.5rem;
     }
+    .locationheader{
+        max-width: 870px;
+        font-size: 4.5rem;
+        margin-left: 260px;
+    }
     .abouttext{
         max-width: 850px;
         font-size:1.4rem;
@@ -356,8 +564,13 @@ div{
         max-width: 850px;
         font-size:1.4rem;
     }
+    .locationtext{
+        max-width: 400px;
+        font-size:1.4rem;
+        margin-left:80px;
+    }
     .logo img{
-        margin-left:0px;
+        margin-left:340px;
         max-width:270px;
     }
     .copyright{
@@ -365,6 +578,60 @@ div{
     }
     .about2{
         height:400px
+    }
+    .menubox{
+        width:800px;
+        margin-left:60px
+    }
+     .menu img{
+        max-height:150px;
+        margin-left:140px
+    }
+    .table img{
+        max-height:150px;
+        margin-left:30px;
+    }
+    .contact img{
+        max-height:150px;
+        margin-left:140px;
+    }
+    .link a{
+        margin-left:30px;
+        margin-right: 20px;
+    }
+    .aboutpagetext{
+        font-size: 1.4rem;
+        max-width:380px;
+        margin-left: 50px;
+    }
+    .aboutpageheader{
+        font-size: 4rem;
+        margin-left:380px;
+    }
+    .coffeecup{
+        margin-left: 120px;
+        width:380px;
+    }
+    .aboutabout{
+        height:700px;
+    }
+    .link{
+        font-size: 1rem;
+    }
+    .booknowbox{
+        width:130px;
+    }
+    .contactheader{
+        font-size:4rem;
+        margin-left:350px;
+    }
+    .header{
+        height:280px;
+    }
+    .contactline{
+        width:0px;
+        height:500px;
+        margin-top: 0px;
     }
 }
 /*xl*/
@@ -377,10 +644,13 @@ div{
         margin-left: 250px;
     }
     .logo img{
-        margin-left:0px;
+        margin-left:340px;
     }
     .copyright{
         margin-left:400px;
+    }
+    .link{
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 600px) {
