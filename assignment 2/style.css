@@ -132,6 +132,13 @@ div{
     margin-right: auto;
     background-color: #f4f4f4;
 }
+.aboutbook{
+    height:1500px;
+    max-width:1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;
+}
 .contactline{
     outline: 3px solid #497183;
     width:340px;
@@ -196,7 +203,7 @@ div{
 }
 .contactpagetext{
     color:#497183;
-    margin-top:10px;
+    margin-top:20px;
     float:left;
     font-size:1.2rem;
     width:100%;
@@ -308,6 +315,21 @@ div{
     font-size: 2.4rem;
     float:left;
     margin-left: 14px;
+}
+.phonebooking{
+    color: #497183;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+    width:100%;
+}
+.onlinebooking{
+    color: #497183;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+    width:100%;
+    float:left;
 }
 .contactborder{
     outline: 4px solid #497183;
@@ -539,6 +561,9 @@ div{
     body{
         
     }
+    .logo img{
+        margin-left:340px;
+    }
     .aboutheader{
         max-width: 870px; 
         margin-left: 250px;
@@ -627,9 +652,9 @@ div{
         height:280px;
     }
     .contactline{
-        width:0px;
-        height:500px;
-        margin-top: 0px;
+        width:920px;
+        
+        margin-top: 50px;
     }
     .menu{
         width:850px;
