@@ -133,14 +133,14 @@ div{
     background-color: #f4f4f4;
 }
 .aboutcontact{
-    height:1150px;
+    height:1000px;
     max-width:1020px;
     margin-left: auto;
     margin-right: auto;
     background-color: #f4f4f4;
 }
 .aboutbook{
-    height:1200px;
+    height:1250px;
     max-width:1020px;
     margin-left: auto;
     margin-right: auto;
@@ -486,10 +486,9 @@ div{
     text-align: center;
 }
 input[type=text], select {
-    width: 300px;
+    width: 100%;
     padding: 12px 20px;
     margin-top: 20px;
-    margin-left:50px;
     display: inline-block;
     border: 1px solid #ccc;
 }
@@ -511,6 +510,53 @@ input[type=text], select {
     margin-top:20px;
     margin-left:50px;
 }
+.form{
+    height:200px;
+    float:left;
+    width:300px;
+    margin-left: 50px;
+}
+.form2{
+    height:350px;
+    float:left;
+    width:300px;
+    margin-left: 50px;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {background-color: #ddd}
+.show {display:block;}
+
 /*sm devices*/
 @media (min-width: 600px){
     body{
@@ -650,7 +696,7 @@ input[type=text], select {
     margin-top: 8px;
     }
     .aboutcontact{
-        height:900px;
+        height:1050px;
     }
     .aboutbook{
         height:1300px;
@@ -660,6 +706,14 @@ input[type=text], select {
     height:50px;
     margin-top: 30px;
     margin-left: 220px
+    }
+    .form{
+        width:500px;
+        margin-left: 70px;
+    }
+    .form2{
+        width:500px;
+        margin-left: 70px;
     }
 }
 /*md*/
@@ -817,7 +871,7 @@ input[type=text], select {
     margin-top: 6px;
     }
     .aboutcontact{
-        height:1300px;
+        height:1050px;
     }
     .booktablebutton{
     width:240px;
@@ -826,7 +880,15 @@ input[type=text], select {
     margin-left: 300px
     }
     .aboutbook{
-        height:1400px;
+        height:1300px;
+    }
+    .form{
+        width:650px;
+        margin-left: 100px;
+    }
+    .form2{
+        width:650px;
+        margin-left: 100px;
     }
 }
 /*lg*/
@@ -994,13 +1056,21 @@ input[type=text], select {
     margin-top: 6px;
     }
     .aboutcontact{
-        height:1300px;
+        height:1050px;
     }
      .booktablebutton{
     width:250px;
     height:50px;
     margin-top: 30px;
     margin-left: 370px
+    }
+    .form{
+        width:700px;
+        margin-left: 130px;
+    }
+    .form2{
+        width:700px;
+        margin-left: 130px;
     }
 }
 /*xl*/
