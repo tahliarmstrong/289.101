@@ -133,14 +133,14 @@ div{
     background-color: #f4f4f4;
 }
 .aboutcontact{
-    height:1500px;
+    height:1150px;
     max-width:1020px;
     margin-left: auto;
     margin-right: auto;
     background-color: #f4f4f4;
 }
 .aboutbook{
-    height:1500px;
+    height:1200px;
     max-width:1020px;
     margin-left: auto;
     margin-right: auto;
@@ -238,6 +238,54 @@ div{
     font-size:1.2rem;
     width:100%;
     text-align: center;
+}
+.contactpagetext2{
+    color:#497183;
+    margin-top:50px;
+    float:left;
+    font-size:1.5rem;
+    width:100%;
+    text-align: center;
+}
+.contactpagetext3{
+    color:#67838A;
+    float:left;
+    font-size:1.2rem;
+    width:100%;
+    margin-left: 10px;
+    margin-top:3px;
+}
+.submitbutton{
+    float:left;
+    width:150px;
+    height:40px;
+    background-color: #8D8D8D;
+    margin-top: 30px;
+    margin-left: 140px
+}
+.submittext{
+    float:left;
+    width:100%;
+    height:40px;
+    font-size:1.5rem;
+    text-align: center;
+    color:white;
+    margin-top: 5px;
+}
+.booktablebutton{
+    float:left;
+    width:200px;
+    height:40px;
+    background-color: #8D8D8D;
+    margin-top: 30px;
+    margin-left: 120px
+}
+.submittext a {
+    color: white;
+    text-decoration: none;
+}
+.submittext a:hover{
+    color: #94C0C6;
 }
 .thankstext1{
     color:#497183;
@@ -437,6 +485,32 @@ div{
     margin-top:35px;
     text-align: center;
 }
+input[type=text], select {
+    width: 300px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left:50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+.textboxsmall{
+    background-color:#E1E1E1;
+    outline: 1px solid #A3A3A3;
+    height: 30px;
+    width: 350px;
+    float:left;
+    margin-top:20px;
+    margin-left:50px;
+}
+.textboxcomment{
+    background-color:#E1E1E1;
+    outline: 1px solid #A3A3A3;
+    height: 200px;
+    width: 350px;
+    float:left;
+    margin-top:20px;
+    margin-left:50px;
+}
 /*sm devices*/
 @media (min-width: 600px){
     body{
@@ -545,6 +619,47 @@ div{
     }
     .box3{
         margin-left: 200px;
+    }
+    .contactpagetext3{
+    font-size:1.3rem;
+    margin-left: 10px;
+    margin-top:6px;
+    }
+    .textboxsmall{
+    height: 40px;
+    width: 500px;
+    margin-top:20px;
+    margin-left:90px;
+    }
+    .textboxcomment{
+    height: 220px;
+    width: 500px;
+    margin-top:20px;
+    margin-left:90px;
+    }
+    .submitbutton{
+    width:170px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 250px
+    }
+    .submittext{
+    width:100%;
+    height:40px;
+    font-size:1.6rem;
+    margin-top: 8px;
+    }
+    .aboutcontact{
+        height:900px;
+    }
+    .aboutbook{
+        height:1300px;
+    }
+    .booktablebutton{
+    width:220px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 220px
     }
 }
 /*md*/
@@ -671,6 +786,47 @@ div{
     }
     .box3{
         margin-left:0px;
+    }
+    .contactpagetext3{
+    font-size:1.4rem;
+    margin-left: 10px;
+    margin-top:12px;
+    }
+    .textboxsmall{
+    height: 50px;
+    width: 600px;
+    margin-top:20px;
+    margin-left:140px;
+    }
+    .textboxcomment{
+    height: 250px;
+    width: 600px;
+    margin-top:20px;
+    margin-left:140px;
+    }
+    .submitbutton{
+    width:180px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 350px
+    }
+    .submittext{
+    width:100%;
+    height:40px;
+    font-size:1.8rem;
+    margin-top: 6px;
+    }
+    .aboutcontact{
+        height:1300px;
+    }
+    .booktablebutton{
+    width:240px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 300px
+    }
+    .aboutbook{
+        height:1400px;
     }
 }
 /*lg*/
@@ -807,6 +963,44 @@ div{
     }
     .box3{
         margin-left:50px;
+    }
+        .contactpagetext3{
+    font-size:1.4rem;
+    margin-left: 10px;
+    margin-top:12px;
+    }
+    .textboxsmall{
+    height: 50px;
+    width: 600px;
+    margin-top:20px;
+    margin-left:200px;
+    }
+    .textboxcomment{
+    height: 250px;
+    width: 600px;
+    margin-top:20px;
+    margin-left:200px;
+    }
+    .submitbutton{
+    width:180px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 400px
+    }
+    .submittext{
+    width:100%;
+    height:40px;
+    font-size:1.8rem;
+    margin-top: 6px;
+    }
+    .aboutcontact{
+        height:1300px;
+    }
+     .booktablebutton{
+    width:250px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 370px
     }
 }
 /*xl*/
